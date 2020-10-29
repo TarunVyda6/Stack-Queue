@@ -6,7 +6,7 @@ import org.junit.Test;
 public class MyStackTest {
 
 	@Test
-	public void given3NumbersWhenAddedToStackShouldHaveLastAddedNode() {
+	public void given3NumbersAddedToStack_WhenAnalysed_ShouldHaveLastAddedNode() {
 		MyNode<Integer> myFirstNode = new MyNode<>(70);
 		MyNode<Integer> mySecondNode = new MyNode<>(30);
 		MyNode<Integer> myThirdNode = new MyNode<>(56);
@@ -19,7 +19,7 @@ public class MyStackTest {
 	}
 
 	@Test
-	public void given3NumbersInStackWhenPopedShouldMatchWithLastAddedNode() {
+	public void given3NumbersInStackToPop_WhenAnalysed_ShouldMatchWithLastAddedNode() {
 		MyNode<Integer> myFirstNode = new MyNode<>(70);
 		MyNode<Integer> mySecondNode = new MyNode<>(30);
 		MyNode<Integer> myThirdNode = new MyNode<>(56);
