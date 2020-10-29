@@ -149,7 +149,6 @@ public class MyLinkedList<k extends Comparable<k>> {
 		prevNode.setNext(newNode);
 	}
 
-
 	public void print() {
 		StringBuffer myNodes = new StringBuffer();
 		INode<k> tempNode = head;
@@ -161,6 +160,10 @@ public class MyLinkedList<k extends Comparable<k>> {
 		}
 		myNodes.append(tempNode.getKey());
 		System.out.println(myNodes);
+	}
+
+	public INode<k> peek() {
+		return head;
 	}
 
 }

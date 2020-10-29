@@ -12,7 +12,15 @@ public class MyStack<k extends Comparable<k>> {
 	public void push(INode<k> newNode) {
 		myLinkedList.add(newNode);
 	}
-	
-	
-}
 
+	/* shows and removes the last element added */
+	public INode<k> pop() {
+		return myLinkedList.pop();
+	}
+
+	/* peek method, shows the last element added */
+	public INode<k> peek() {
+		return myLinkedList.peek();
+	}
+
+}
